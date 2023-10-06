@@ -60,3 +60,9 @@ The values below the image patches belong to PSNR/SSIM.
 Data augmentation with all transformations ensure the best performance of the models.
 Augmentation with 180 degrees rotation provides the highest performance among single 
 transformations.
+
+
+&nbsp;
+
+
+Please feel free to contact me at [htemiz@artvin.edu.tr](mailto:htemiz@artvin.edu.tr) for any further information.
