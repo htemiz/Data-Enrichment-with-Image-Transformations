@@ -17,19 +17,21 @@ Deep  networks need  to  be  trained  to  take  into  account  unexpected  varia
 The contribution of data augmentation with image transformations to the performance of deep networks in 
 the super resolution problem were examined.
 
-
-## Dataset
-50 thousand images from the ILSVRC2012 dataset were used to train the algorithms for 2x magnification.
-The performances of the algorithms were measured on another 10 thousand images of the same dataset.  
-
-
 ## Image Transormations
 
 The following image transformations for data augmentation were examined:
 ![](images/transformations.png)
 
+
 &nbsp;
 
+
+## Dataset
+50 thousand images from the ILSVRC2012 dataset were used to train the algorithms for 2x magnification.
+The performances of the algorithms were measured on another 10 thousand images of the same dataset.
+
+
+&nbsp;
 
 ## Models
 The following two modified deep learning models were used: [DECUSR](https://github.com/htemiz/DECUSR) and [SRCNN]() 
