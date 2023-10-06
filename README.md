@@ -19,15 +19,22 @@ The following image transformations were examined in the study
 
 
 ## Models
-The following two deep learning models were used: [DECUSR](https://github.com/htemiz/DECUSR) and [SRCNN]() 
+The following two modified deep learning models were used: [DECUSR](https://github.com/htemiz/DECUSR) and [SRCNN]() 
 
 ### DECUSR with 3 Repeating Blocks
 
+The model revised to have 3 repeating blocks and ability to process 3-channel images.
+
+Visual
 ![](images/decusr3rb.png)
 
 &nbsp;
 
+
 ### SRCNN
+
+SRCNN was also modified to have ability to process 3-channel images, as it was originally designed to process 1-channel
+images.
 
 ![](images/srcnn.png)
 
