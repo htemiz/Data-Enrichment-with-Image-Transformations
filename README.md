@@ -18,9 +18,14 @@ The contribution of data augmentation with image transformations to the performa
 the super resolution problem were examined.
 
 
+## Dataset
+50 thousand images from the ILSVRC2012 dataset were used to train the algorithms for 2x magnification.
+The performances of the algorithms were measured on another 10 thousand images of the same dataset.  
+
+
 ## Image Transormations
 
-The following image transformations were examined in the study
+The following image transformations for data augmentation were examined:
 ![](images/transformations.png)
 
 &nbsp;
