@@ -29,6 +29,20 @@ The following image transformations were examined in the study
 ## Models
 The following two modified deep learning models were used: [DECUSR](https://github.com/htemiz/DECUSR) and [SRCNN]() 
 
+The visualizations and program codes of both algorithms are given in the subsequent two sections.
+
+Given codes are of [DeepSR](https://github.com/htemiz/DeepSR) style definition. To run, e.g., DECUSR,
+
+issue similar code below:
+
+```python
+--python.exe -m DeepSR.DeepSR --modelfile Decusr_3RB.py --train # --train argument to start training process
+# --test for evaluate the performance of the model.
+```
+
+Please, refer to [DeepSR](https://github.com/htemiz/DeepSR) documentation for further information.
+
+
 ### DECUSR with 3 Repeating Blocks
 
 The model revised to have 3 repeating blocks and ability to process 3-channel images.
@@ -39,7 +53,8 @@ Visualization of the model's architecture:
 
 &nbsp;
 
-Below is the DeepSR-fashion of DECUSR with 3 RB
+Below is the DeepSR style code for the definition of DECUSR with 3 RB. 
+
 
 ```python
 from keras import metrics
@@ -175,6 +190,8 @@ The architecture of modified SRCNN:
 ![](images/srcnn.png)
 
 &nbsp;
+
+Below is the DeepSR style code for the definition of SRCNN.
 
 ```python
 
