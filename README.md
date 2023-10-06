@@ -10,6 +10,14 @@ Image Transformations on the Performance of Deep Networks.The European Journal o
 
 &nbsp;
 
+## Overview
+
+Images  cannot  always  be  expected  to  come  in  a  certain  standard  format  and  orientation.
+Deep  networks need  to  be  trained  to  take  into  account  unexpected  variations  in  orientation  or  format.
+The contribution of data augmentation with image transformations to the performance of deep networks in 
+the super resolution problem were examined.
+
+
 ## Image Transormations
 
 The following image transformations were examined in the study
@@ -25,7 +33,8 @@ The following two modified deep learning models were used: [DECUSR](https://gith
 
 The model revised to have 3 repeating blocks and ability to process 3-channel images.
 
-Visual
+Visualization of the model's architecture:
+
 ![](images/decusr3rb.png)
 
 &nbsp;
@@ -36,9 +45,18 @@ Visual
 SRCNN was also modified to have ability to process 3-channel images, as it was originally designed to process 1-channel
 images.
 
+The architecture of modified SRCNN:
+
 ![](images/srcnn.png)
 
 &nbsp;
 
 ## Visual Outputs
+Visual outputs of data augmentation with each image transformations are given below. 
+The values below the image patches belong to PSNR/SSIM. 
+
 ![](images/visual_examples.png)
+
+Data augmentation with all transformations ensure the best performance of the models.
+Augmentation with 180 degrees rotation provides the highest performance among single 
+transformations.
