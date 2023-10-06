@@ -32,8 +32,12 @@ The following two modified deep learning models were used: [DECUSR](https://gith
 
 The visualizations and program codes of both algorithms are given in the subsequent two sections.
 
-Given codes are of [DeepSR](https://github.com/htemiz/DeepSR) style definition. To run, e.g., DECUSR,
-issue similar code below:
+Given codes are of [DeepSR](https://github.com/htemiz/DeepSR) style definition. In addition to
+code for creating the algorithm, they include hyper-parameter values
+and other setting also to accomplish the experiment. The files of full codes for both algorithm can be found 
+in `models` directory.
+
+To run, e.g., DECUSR, issue similar code below:
 
 ```python
 --python.exe -m DeepSR.DeepSR --modelfile Decusr_3RB.py --train # --train argument to start training process
