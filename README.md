@@ -17,6 +17,9 @@ Deep  networks need  to  be  trained  to  take  into  account  unexpected  varia
 The contribution of data augmentation with image transformations to the performance of deep networks in 
 the super resolution problem were examined.
 
+
+&nbsp;
+
 ## Image Transormations
 
 The following image transformations for data augmentation were examined:
