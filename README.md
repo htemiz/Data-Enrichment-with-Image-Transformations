@@ -8,23 +8,30 @@ Please cite the paper as follows:
 Image Transformations on the Performance of Deep Networks.The European Journal of Research and Development,2(2), 23–33*
 [https://doi.org/10.56038/ejrnd.v2i2.23](https://doi.org/10.56038/ejrnd.v2i2.23)
 
+&nbsp;
 
 ## Image Transormations
 
+The following image transformations were examined in the study
 ![](images/transformations.png)
 
-## Models
+&nbsp;
 
+
+## Models
+The following two deep learning models were used: [DECUSR](https://github.com/htemiz/DECUSR) and [SRCNN]() 
 
 ### DECUSR with 3 Repeating Blocks
 
 ![](images/decusr3rb.png)
 
+&nbsp;
 
 ### SRCNN
 
 ![](images/srcnn.png)
 
+&nbsp;
 
 ## Visual Outputs
 ![](images/visual_examples.png)
