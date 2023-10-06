@@ -284,6 +284,12 @@ The performances of both algorithm with respect to image transformations are as 
 
 ![](images/performances.png)
 
+
+Data augmentation with all transformations ensure the best performance of the models.
+Augmentation with 180 degrees rotation provides the highest performance among single
+transformations.
+
+
 &nbsp;
 
 ## Visual Outputs
@@ -291,11 +297,6 @@ Visual outputs of data augmentation with each image transformations are given be
 The values below the image patches belong to PSNR/SSIM. 
 
 ![](images/visual_examples.png)
-
-Data augmentation with all transformations ensure the best performance of the models.
-Augmentation with 180 degrees rotation provides the highest performance among single 
-transformations.
-
 
 &nbsp;
 
