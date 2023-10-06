@@ -57,7 +57,7 @@ settings = \
 'interp_compare': 'lanczos',
 'interp_up': 'bicubic',
 'kernel_initializer': 'he_normal',
-'lrate':1e-4,
+'lrate':1e-3,
 'lrpatience': 10,
 'lrfactor' : 0.5,
 'metrics': ["PSNR"],

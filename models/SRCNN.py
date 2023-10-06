@@ -33,7 +33,7 @@ settings = \
 'decimation': 'bicubic',
 'dilation_rate':(1,1),
 'espatience' : 25,
-'epoch':50,
+'epoch':10,
 'inputsize':33, #
 'interp_compare': '',
 'interp_up': 'bicubic',
